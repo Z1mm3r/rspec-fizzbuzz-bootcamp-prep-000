@@ -9,12 +9,12 @@ def fizzbuzz(number)
 
   if(number % 3 == 0)
   
-    val += "fizz"
+    val += "Fizz"
     divisible = true
   end
   if(number % 5 == 0)
   
-    val += "buzz"
+    val += "Buzz"
     divisible = true
   end
   
