@@ -6,9 +6,9 @@ def fizzbuzz(number)
   val = ""
   
   if(number % 3 == 0)
-    {
-      val += "fizz"
-    }
+  {
+    val += "fizz"
+  }
   elsif(number % 5 == 0)
   {
     val += "buzz"
