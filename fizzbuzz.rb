@@ -20,7 +20,7 @@ def fizzbuzz(number)
   
   if(!divisible)
     {
-      return false
+      return nil
     }
     
 end
