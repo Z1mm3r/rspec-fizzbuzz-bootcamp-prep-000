@@ -22,5 +22,5 @@ def fizzbuzz(number)
     {
       return nil
     }
-    
+    return val
 end
