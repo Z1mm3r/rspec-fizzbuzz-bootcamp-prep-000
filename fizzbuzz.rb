@@ -9,6 +9,10 @@ def fizzbuzz(number)
     {
       val += "fizz"
     }
+  elsif(number % 5 == 0)
+  {
+    val += "buzz"
+  }
   else
     {
       return nil
