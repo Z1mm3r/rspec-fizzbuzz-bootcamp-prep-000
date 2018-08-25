@@ -5,7 +5,7 @@ def fizzbuzz(number)
   
   val = ""
 
-  if(!(15 % number))
+  
 
   if(number % 3 == 0)
   {
@@ -16,5 +16,9 @@ def fizzbuzz(number)
     val += "buzz"
   }
   
+  if(!divisible)
+    {
+      return false;
+    }
     
 end
