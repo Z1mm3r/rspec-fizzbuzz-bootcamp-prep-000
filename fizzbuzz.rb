@@ -4,21 +4,23 @@
 def fizzbuzz(number)
   
   val = ""
-
+  divisible = false
   
 
   if(number % 3 == 0)
   {
     val += "fizz"
+    divisible = true
   }
   if(number % 5 == 0)
   {
     val += "buzz"
+    divisible = true
   }
   
   if(!divisible)
     {
-      return false;
+      return false
     }
     
 end
