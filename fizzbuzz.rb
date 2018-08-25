@@ -4,7 +4,9 @@
 def fizzbuzz(number)
   
   val = ""
-  
+
+  if(!(15 % number))
+
   if(number % 3 == 0)
   {
     val += "fizz"
@@ -14,8 +16,5 @@ def fizzbuzz(number)
     val += "buzz"
   }
   
-    {
-      return nil
-    }
     
 end
