@@ -8,19 +8,19 @@ def fizzbuzz(number)
   
 
   if(number % 3 == 0)
-  {
+  
     val += "fizz"
     divisible = true
-  }
+  end
   if(number % 5 == 0)
-  {
+  
     val += "buzz"
     divisible = true
-  }
+  end
   
   if(!divisible)
-    {
+    
       return nil
-    }
+    end
     return val
 end
